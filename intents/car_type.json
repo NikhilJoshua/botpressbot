@@ -1,0 +1,12 @@
+{
+  "name": "car_type",
+  "utterances": [
+    "xl",
+    "x",
+    "suv"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

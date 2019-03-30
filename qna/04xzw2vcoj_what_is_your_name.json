@@ -1,0 +1,19 @@
+{
+  "id": "04xzw2vcoj_what_is_your_name",
+  "data": {
+    "answers": [
+      "My name is Advisor. I'm a Chatbot.",
+      "I'm Advisor, the Chatbot"
+    ],
+    "questions": [
+      "What is your name?",
+      "Can I know your name?",
+      "What do people call you?"
+    ],
+    "redirectFlow": "main.flow.json",
+    "redirectNode": "Start",
+    "action": "text_redirect",
+    "category": "global",
+    "enabled": true
+  }
+}

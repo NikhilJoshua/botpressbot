@@ -1,0 +1,12 @@
+{
+  "name": "delivery",
+  "utterances": [
+    "is there any  free delivery",
+    "is there any home delivery",
+    "when are you going  to deliver the car"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

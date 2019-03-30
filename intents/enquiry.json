@@ -1,0 +1,18 @@
+{
+  "name": "Enquiry",
+  "utterances": [
+    "what cars do you provide?",
+    "what cars do you sell",
+    "how many cars are there?",
+    "what cars are available?",
+    "Can I know the catalog of cars",
+    "what cars do you have?",
+    "I want to buy a car",
+    "Can I get the details of  ",
+    "I want to know about car details"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

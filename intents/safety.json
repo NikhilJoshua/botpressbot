@@ -1,0 +1,11 @@
+{
+  "name": "safety",
+  "utterances": [
+    "how many air bags this car contain",
+    "Is their any saftey for the car"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

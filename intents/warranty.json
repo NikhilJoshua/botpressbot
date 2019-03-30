@@ -1,0 +1,13 @@
+{
+  "name": "warranty",
+  "utterances": [
+    "what is the warranty of",
+    "any warranty?",
+    "what is the warranty period ",
+    "how long is the warranty is"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bv4d55jnzz_who_is_nikhil",
+  "data": {
+    "answers": [
+      "He is my master, a great person",
+      "A great person"
+    ],
+    "questions": [
+      "Who is Nikhil?"
+    ],
+    "redirectFlow": "main.flow.json",
+    "redirectNode": "entry",
+    "action": "text_redirect",
+    "category": "global",
+    "enabled": true
+  }
+}

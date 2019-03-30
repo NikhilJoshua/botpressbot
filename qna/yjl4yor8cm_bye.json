@@ -1,0 +1,17 @@
+{
+  "id": "yjl4yor8cm_bye",
+  "data": {
+    "answers": [
+      "Bye, thank you for chatting with us."
+    ],
+    "questions": [
+      "Bye",
+      "Bye bye"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

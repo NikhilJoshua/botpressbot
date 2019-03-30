@@ -1,0 +1,14 @@
+{
+  "name": "testDrive",
+  "utterances": [
+    "can I get test drive of",
+    "test drive?",
+    "do you have test drive",
+    "do you provide test drive",
+    "is test drive available?"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

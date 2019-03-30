@@ -1,0 +1,18 @@
+{
+  "id": "hz7i749e3v_who_is_u_r_father",
+  "data": {
+    "answers": [
+      "nikhil ",
+      "sachin"
+    ],
+    "questions": [
+      "who is ur father",
+      "who is ur creater"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

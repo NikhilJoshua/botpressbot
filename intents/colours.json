@@ -1,0 +1,13 @@
+{
+  "name": "colours",
+  "utterances": [
+    "what are the colors for this car",
+    "choice of colors",
+    "what colors are available",
+    "how many colors does it have"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

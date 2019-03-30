@@ -1,0 +1,18 @@
+{
+  "id": "qmufz72xkd_which_languages_do_u_know",
+  "data": {
+    "answers": [
+      "i know only English ",
+      "i can speak only english "
+    ],
+    "questions": [
+      "which languages do u know",
+      "what all the languages  do u know"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

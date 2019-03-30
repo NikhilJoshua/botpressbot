@@ -1,0 +1,13 @@
+{
+  "name": "fuelType",
+  "utterances": [
+    "what is the fuel type of",
+    "fuel type?",
+    "what fuel options does it have",
+    "is it a petrol or diesel car"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

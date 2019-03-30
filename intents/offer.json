@@ -1,0 +1,12 @@
+{
+  "name": "offer",
+  "utterances": [
+    "what is the offer does this consist of",
+    "can i get any offer",
+    "is there any offer on the price"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

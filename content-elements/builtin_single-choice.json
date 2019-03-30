@@ -1,0 +1,22 @@
+[
+  {
+    "id": "builtin_single-choice-CrNlPf",
+    "formData": {
+      "text": "choice",
+      "choices": [
+        {
+          "title": "1",
+          "value": "1"
+        },
+        {
+          "title": "2",
+          "value": "2"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-27T08:16:29.550Z",
+    "modifiedOn": "2019-03-27T08:16:29.550Z"
+  }
+]

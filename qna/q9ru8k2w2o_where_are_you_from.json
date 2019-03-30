@@ -1,0 +1,19 @@
+{
+  "id": "q9ru8k2w2o_where_are_you_from",
+  "data": {
+    "answers": [
+      "I'm from Nikhil Joshua's computer, he is my master",
+      "I stay in my master's laptop"
+    ],
+    "questions": [
+      "Where are you from",
+      "Where do you stay",
+      "where is your house"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

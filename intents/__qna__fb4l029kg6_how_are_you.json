@@ -1,0 +1,12 @@
+{
+  "name": "__qna__fb4l029kg6_how_are_you",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "How are you?",
+    "How ya doing?",
+    "How are you doing"
+  ],
+  "slots": []
+}

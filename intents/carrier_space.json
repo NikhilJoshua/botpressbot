@@ -1,0 +1,11 @@
+{
+  "name": "carrier_space",
+  "utterances": [
+    "it shoud have good space to keep my luggage",
+    "it shoud provide a good carrier space"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

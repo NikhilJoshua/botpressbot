@@ -1,0 +1,15 @@
+{
+  "name": "mileage",
+  "utterances": [
+    "mileage of",
+    "milage of",
+    "what's the milage of",
+    "what's the mileage of ",
+    "how much mileage does",
+    "what is the mileage of"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

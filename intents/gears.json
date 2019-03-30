@@ -1,0 +1,12 @@
+{
+  "name": "gears",
+  "utterances": [
+    "how many gears are there",
+    "number of gears in",
+    "no of gears in "
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

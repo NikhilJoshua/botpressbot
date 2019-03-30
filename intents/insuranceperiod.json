@@ -1,0 +1,11 @@
+{
+  "name": "insurancePeriod",
+  "utterances": [
+    "insurance period?",
+    "what is the insurance period"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

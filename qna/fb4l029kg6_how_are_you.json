@@ -1,0 +1,19 @@
+{
+  "id": "fb4l029kg6_how_are_you",
+  "data": {
+    "answers": [
+      "I'm good, thanks for asking.",
+      "I'm doing great, thanks"
+    ],
+    "questions": [
+      "How are you?",
+      "How ya doing?",
+      "How are you doing"
+    ],
+    "redirectFlow": "main.flow.json",
+    "redirectNode": "Start",
+    "action": "text_redirect",
+    "category": "global",
+    "enabled": true
+  }
+}

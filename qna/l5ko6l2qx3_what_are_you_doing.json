@@ -1,0 +1,20 @@
+{
+  "id": "l5ko6l2qx3_what_are_you_doing",
+  "data": {
+    "answers": [
+      "Presently, I'm chatting with you. ",
+      "Nothing much, just wasting time..."
+    ],
+    "questions": [
+      "What are you doing?",
+      "Sup?",
+      "What's Up?",
+      "What doing?"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

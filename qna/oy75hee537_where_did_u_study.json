@@ -1,0 +1,17 @@
+{
+  "id": "oy75hee537_where_did_u_study",
+  "data": {
+    "answers": [
+      "internet"
+    ],
+    "questions": [
+      "where did u study",
+      "where is u r schooling's"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

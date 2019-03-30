@@ -1,0 +1,12 @@
+{
+  "name": "transmission",
+  "utterances": [
+    "what kind of transmission ",
+    "tranmission?",
+    "what is the transmission "
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

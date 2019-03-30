@@ -1,0 +1,38 @@
+{
+  "sensitive": false,
+  "fuzzy": true,
+  "name": "Cars",
+  "type": "list",
+  "occurences": [
+    {
+      "name": "creta",
+      "synonyms": [
+        "Hyundai Creta"
+      ]
+    },
+    {
+      "name": "Grand i10",
+      "synonyms": [
+        "i10",
+        "i10 Grand"
+      ]
+    },
+    {
+      "name": "Elite i20",
+      "synonyms": [
+        "i20",
+        "i20 Elite"
+      ]
+    },
+    {
+      "name": "Santro",
+      "synonyms": []
+    },
+    {
+      "name": "Verna",
+      "synonyms": [
+        "Hyundai Verna"
+      ]
+    }
+  ]
+}

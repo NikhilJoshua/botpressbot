@@ -1,0 +1,13 @@
+{
+  "name": "servicePeriod",
+  "utterances": [
+    "servicing?",
+    "service period?",
+    "how much time does service period take",
+    "what is the service period"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

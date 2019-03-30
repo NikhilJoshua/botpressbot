@@ -1,0 +1,21 @@
+{
+  "id": "rhol40v7m6_fuck_off",
+  "data": {
+    "answers": [
+      "don't speak vulgarly ",
+      "use some sense"
+    ],
+    "questions": [
+      "fuck off",
+      "buffalo",
+      "stupid",
+      "donkey",
+      "idiot"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

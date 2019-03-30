@@ -1,0 +1,72 @@
+[
+  {
+    "id": "builtin_text-1GxpMz",
+    "formData": {
+      "text": "Hi there! MayI know your name please?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T07:28:12.782Z",
+    "modifiedOn": "2019-03-15T07:28:12.782Z"
+  },
+  {
+    "id": "builtin_text-2IPsAw",
+    "formData": {
+      "text": "Hey {{$user.username}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T07:51:34.795Z",
+    "modifiedOn": "2019-03-15T07:51:34.795Z"
+  },
+  {
+    "id": "builtin_text-og3pWW",
+    "formData": {
+      "text": "Hey {{user.username}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T08:07:56.731Z",
+    "modifiedOn": "2019-03-15T08:07:56.731Z"
+  },
+  {
+    "id": "builtin_text-SNFCID",
+    "formData": {
+      "text": "sorry I'm just a new born baby bot. I don't know anything yet",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T08:35:24.513Z",
+    "modifiedOn": "2019-03-15T08:35:24.513Z"
+  },
+  {
+    "id": "builtin_text-2Nhdz4",
+    "formData": {
+      "text": "Sorry, I didn't understand what you said! :(",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T08:55:37.916Z",
+    "modifiedOn": "2019-03-15T08:55:37.916Z"
+  },
+  {
+    "id": "builtin_text-DKcr3f",
+    "formData": {
+      "text": "Thanks :)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T09:03:10.229Z",
+    "modifiedOn": "2019-03-15T09:03:10.229Z"
+  },
+  {
+    "id": "builtin_text-cotDvO",
+    "formData": {
+      "text": "Hi, How can I help you today?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-28T08:40:33.288Z",
+    "modifiedOn": "2019-03-28T08:40:33.288Z"
+  }
+]

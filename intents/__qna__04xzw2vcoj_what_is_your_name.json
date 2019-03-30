@@ -1,0 +1,12 @@
+{
+  "name": "__qna__04xzw2vcoj_what_is_your_name",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "What is your name?",
+    "Can I know your name?",
+    "What do people call you?"
+  ],
+  "slots": []
+}

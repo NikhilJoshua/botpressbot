@@ -1,0 +1,13 @@
+{
+  "name": "engineCC",
+  "utterances": [
+    "tell me about engine",
+    "what is the engine cc",
+    "How much cc is the engine",
+    "how much is the engine capacity"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

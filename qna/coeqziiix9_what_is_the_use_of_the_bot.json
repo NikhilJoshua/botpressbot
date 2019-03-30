@@ -1,0 +1,17 @@
+{
+  "id": "coeqziiix9_what_is_the_use_of_the_bot",
+  "data": {
+    "answers": [
+      "for car enquiry "
+    ],
+    "questions": [
+      "what is the use of the bot",
+      "why did use bot"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

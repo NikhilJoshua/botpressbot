@@ -1,0 +1,24 @@
+{
+  "name": "price",
+  "utterances": [
+    "how much price",
+    "how much is",
+    "how much is car",
+    "what's the price of",
+    "at what price can i get this car",
+    "does it range between ",
+    "what is the price range of the car",
+    "what is the price of the car"
+  ],
+  "slots": [
+    {
+      "id": "PYVxoBYU4P8lk_Y8z_Ran",
+      "name": "car",
+      "entity": "Cars",
+      "color": 2
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

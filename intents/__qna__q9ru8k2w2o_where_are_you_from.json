@@ -1,0 +1,12 @@
+{
+  "name": "__qna__q9ru8k2w2o_where_are_you_from",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "Where are you from",
+    "Where do you stay",
+    "where is your house"
+  ],
+  "slots": []
+}

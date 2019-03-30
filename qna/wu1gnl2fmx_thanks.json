@@ -1,0 +1,17 @@
+{
+  "id": "wu1gnl2fmx_thanks",
+  "data": {
+    "answers": [
+      "You are welcome"
+    ],
+    "questions": [
+      "Thanks",
+      "Thank you very much"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

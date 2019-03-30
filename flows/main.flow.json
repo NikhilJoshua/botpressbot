@@ -1,0 +1,157 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": [
+      {
+        "condition": "event.nlu.intent.name === 'Enquiry'",
+        "node": "Enquiry"
+      }
+    ],
+    "onReceive": []
+  },
+  "startNode": "Start",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "user.username !== undefined",
+          "node": "hi_again"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'greet'",
+          "node": "say_hi"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "8eb04966f6",
+      "name": "say_hi",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Start"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1GxpMz"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"username\",\"value\":\"{{event.payload.text}}\"}",
+        "say #!builtin_text-DKcr3f"
+      ]
+    },
+    {
+      "id": "15ddb9d90b",
+      "name": "hi_again",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-og3pWW"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "81f8dfc701",
+      "name": "Enquiry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ShowDetails"
+        }
+      ],
+      "onEnter": [
+        "showAvailable {}"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"car\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "a373fd59ab",
+      "name": "none",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-2Nhdz4"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "d2fa4d33d2",
+      "name": "ShowDetails",
+      "next": [],
+      "onEnter": [
+        "showDetails {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "24b9778a2d",
+      "name": "welcome",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-cotDvO"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "481f22f477",
+      "name": "ShowPrice",
+      "next": [],
+      "onEnter": [
+        "showPrice {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2d24fbeff4",
+      "name": "showWarranty",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "showWarranty {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a9175760df",
+      "name": "Start",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'Enquiry'",
+          "node": "Enquiry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'greet'",
+          "node": "welcome"
+        },
+        {
+          "condition": "true",
+          "node": "getDetails"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "c459fb1acf",
+      "name": "getDetails",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "getDetails {}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

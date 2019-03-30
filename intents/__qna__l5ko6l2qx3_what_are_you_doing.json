@@ -1,0 +1,13 @@
+{
+  "name": "__qna__l5ko6l2qx3_what_are_you_doing",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "What are you doing?",
+    "Sup?",
+    "What's Up?",
+    "What doing?"
+  ],
+  "slots": []
+}
