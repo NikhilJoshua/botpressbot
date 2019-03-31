@@ -1,0 +1,14 @@
+{
+  "name": "paymentType",
+  "utterances": [
+    "how can I pay?",
+    "what are the payment options",
+    "payment options",
+    "payment type?",
+    "what is the payment type"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

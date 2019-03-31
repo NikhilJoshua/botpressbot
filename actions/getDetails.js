@@ -17,7 +17,8 @@ function formSentence(attr, name, value){
 			return "There are " + value + " gears in " + name
 			break
 		case 'fuelType':
-			return name + " is available in " + value
+			var ft = value.split('/')
+			return name + " is available in " + ft[0] + ((ft[1]!==undefined) ? " and " + ft[1] : "")
 			break
 		case 'transmission':
 			var tr = value.split('/')
@@ -29,6 +30,13 @@ function formSentence(attr, name, value){
 		case 'mileage':
 			return name + " gives " + value + " mileage"
 			break
+		case 'paymentType':
+			var pt = value.split('/')
+			var pts = ""
+			pt.forEach(function(x){
+				pts += x+", "
+			})
+			return "You can pay using " + pts.slice(0,-2)
 		case 'colours':
 			var cl = value.split('/')
 			var cols = ""
