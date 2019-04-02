@@ -1,0 +1,102 @@
+{
+  "sensitive": false,
+  "fuzzy": true,
+  "name": "oCars",
+  "type": "list",
+  "occurences": [
+    {
+      "name": "suzuki",
+      "synonyms": [
+        "swift",
+        "Brezza",
+        " Baleno",
+        "Ertiga",
+        "Dzire",
+        "Wagon R",
+        "Alto 800",
+        "Celerio",
+        "Alto K10",
+        "Omni"
+      ]
+    },
+    {
+      "name": "Honda",
+      "synonyms": [
+        "\nHonda Civic",
+        "Honda City",
+        "Honda Amaze",
+        "Honda Jazz",
+        "Honda Accord"
+      ]
+    },
+    {
+      "name": "Toyota",
+      "synonyms": [
+        "Toyota Fortuner",
+        "Toyota Innova Crysta",
+        "Toyota Platinum Etios",
+        "\nToyota Yaris",
+        "Toyota Corolla Altis",
+        "\n",
+        "Toyota Etios Cross"
+      ]
+    },
+    {
+      "name": "Mahindra",
+      "synonyms": [
+        "\nMahindra XUV300",
+        "Mahindra Scorpio",
+        "Mahindra Bolero",
+        "Mahindra XUV500",
+        "Mahindra Thar",
+        "Mahindra Marazzo"
+      ]
+    },
+    {
+      "name": "Tata",
+      "synonyms": [
+        "Tata Harrier",
+        "Tata Nexon",
+        "Tata Tiago",
+        "Tata Hexa",
+        "Tata Tigor",
+        "\nTata Safari Storme"
+      ]
+    },
+    {
+      "name": "Jeep",
+      "synonyms": [
+        "Jeep Compass",
+        "\nJeep Wrangler Unlimited",
+        "Jeep Grand Cherokee"
+      ]
+    },
+    {
+      "name": "Volkswagen'",
+      "synonyms": []
+    },
+    {
+      "name": "Benz",
+      "synonyms": [
+        "mercedes"
+      ]
+    },
+    {
+      "name": "Ferrari",
+      "synonyms": []
+    },
+    {
+      "name": "Lamborghini",
+      "synonyms": []
+    },
+    {
+      "name": "Audi",
+      "synonyms": []
+    },
+    {
+      "name": "Bentley",
+      "synonyms": []
+    }
+  ],
+  "pattern": ""
+}

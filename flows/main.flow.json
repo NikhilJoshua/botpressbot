@@ -132,6 +132,10 @@
           "node": "welcome"
         },
         {
+          "condition": "event.nlu.intent.name === 'buy'",
+          "node": "ShowDetails"
+        },
+        {
           "condition": "true",
           "node": "getDetails"
         }

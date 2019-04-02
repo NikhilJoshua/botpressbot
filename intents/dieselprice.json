@@ -1,0 +1,13 @@
+{
+  "name": "dieselPrice",
+  "utterances": [
+    "price of diesel Engine?",
+    "can I know the diesel price of",
+    "diesel price",
+    "what is the diesel price?"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

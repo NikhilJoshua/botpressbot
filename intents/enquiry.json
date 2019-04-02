@@ -7,9 +7,7 @@
     "what cars are available?",
     "Can I know the catalog of cars",
     "what cars do you have?",
-    "I want to buy a car",
-    "Can I get the details of  ",
-    "I want to know about car details"
+    "Can I get the details of  "
   ],
   "slots": [],
   "contexts": [

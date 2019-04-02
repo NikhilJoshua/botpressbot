@@ -1,0 +1,14 @@
+{
+  "name": "petrolPrice",
+  "utterances": [
+    "price of petrol engine",
+    "what is the price of petrol model",
+    "what is it's petrol price",
+    "what is the petrol price of verna",
+    "petrol price?"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

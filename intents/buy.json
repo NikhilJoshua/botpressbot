@@ -1,0 +1,19 @@
+{
+  "name": "buy",
+  "utterances": [
+    "Can I purchase [car](car)",
+    "i want to buy",
+    "i want"
+  ],
+  "slots": [
+    {
+      "id": "3j5aw-4I1b-pk1yAiwwhN",
+      "name": "car",
+      "entity": "Cars",
+      "color": 2
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

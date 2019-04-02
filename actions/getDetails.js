@@ -45,12 +45,21 @@ function formSentence(attr, name, value){
 			})
 			return name + " is available in " + cols.slice(0, -2)
 			break
+		case 'dieselPrice':
+			return "Diesel price for " + name + " is ₹" + value + " Lakhs"
+			break
+		case 'petrolPrice':
+			return "Petrol price for " + name +	 " is ₹" + value + " Lakhs"
+			break
 		case 'none':
-			return "Sorry I didn't understand what you told, please repeat clearly."
+			return "Sorry the information you provided is inappropriate"
 			break
 
 		default:
-			return attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + name + " is " + value
+			if(value !== undefined)
+				return attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + name + " is " + value
+			else
+				return "I didn't understand that, please be more specific."
 			break
 	}
 }
@@ -67,6 +76,11 @@ var flag = false
 				const payloads = await bp.cms.renderElement('builtin_text', {text: formSentence(attr, x.data.value,r[0][attr])/*attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + x.data.value + " is " + r[0][attr]*/, typing: false}, eventDestination)
 				await bp.events.replyToEvent(event, payloads)
 		})
+	}
+	else if(x.name === "oCars"){
+		flag = true
+		const payloads = await bp.cms.renderElement('builtin_text', {text: "Sorry we only sell Hyundai cars. Please enquire about Hyundai cars only.", typing: true}, eventDestination)
+		await bp.events.replyToEvent(event, payloads)
 	}
 
 	})

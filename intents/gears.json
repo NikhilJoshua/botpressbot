@@ -5,7 +5,14 @@
     "number of gears in",
     "no of gears in "
   ],
-  "slots": [],
+  "slots": [
+    {
+      "id": "9VSA052dLRSyF9Zsam0YJ",
+      "name": "gears",
+      "entity": "numeral",
+      "color": 2
+    }
+  ],
   "contexts": [
     "global"
   ]

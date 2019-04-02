@@ -8,7 +8,14 @@
     "how much mileage does",
     "what is the mileage of"
   ],
-  "slots": [],
+  "slots": [
+    {
+      "id": "mrdxoiHfcjTL66nW0i46T",
+      "name": "mileage",
+      "entity": "numeral",
+      "color": 3
+    }
+  ],
   "contexts": [
     "global"
   ]

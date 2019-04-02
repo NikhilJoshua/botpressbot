@@ -1,0 +1,20 @@
+{
+  "name": "oCars",
+  "utterances": [
+    "I want [ferrari](oCar)",
+    "what is the price of [Honda](oCar)",
+    "I want [alto](oCar)",
+    "Do you have [Benz](oCar)"
+  ],
+  "slots": [
+    {
+      "id": "Bw9kQulNfma5HRlT_lsfk",
+      "name": "oCar",
+      "entity": "oCars",
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}
