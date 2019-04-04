@@ -8,7 +8,7 @@ var cars = {
       	typing: true 
       }
 
-
+var ocar = false
 
 const reply = async () => {
 	const eventDestination = {
@@ -17,15 +17,25 @@ const reply = async () => {
 		botId: event.botId,
 		threadId: event.threadId
 	}
-	await knex.select('*').from('cars').then(function (rows) {
-	//console.log(rows);
-	rows.forEach(function(e){
-		cars.choices.push({title:e.name, value:e.name})
-	})
-	})
-	const payloads = await bp.cms.renderElement('builtin_single-choice', cars, eventDestination)
-	await bp.events.replyToEvent(event, payloads)
-}
+	/*await event.nlu.entities.forEach(async function(x){
+		if(x.name === "oCars"){
+			ocar = true
+			console.log("ERROR")
+			const payload = await bp.cms.renderElement('builtin_single-choice', {text: "Sorry we only provide Hyundai cars", typing: true}, eventDestination)
+			await bp.events.replyToEvent(event, payloads)
+		}
+		else {*/
+			await knex.select('*').from('cars').then(function (rows) {
+			//console.log(rows);
+			rows.forEach(function(e){
+			cars.choices.push({title:e.name, value:e.name})
+		})
+		})
+		const payloads = await bp.cms.renderElement('builtin_single-choice', cars, eventDestination)
+		await bp.events.replyToEvent(event, payloads)
+		}
+//	})
+//}
 
 return reply()
 

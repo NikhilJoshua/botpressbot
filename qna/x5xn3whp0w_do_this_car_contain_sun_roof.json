@@ -1,0 +1,17 @@
+{
+  "id": "x5xn3whp0w_do_this_car_contain_sun_roof",
+  "data": {
+    "answers": [
+      "no"
+    ],
+    "questions": [
+      "do this car contain sun roof",
+      "open top"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "groundClearance",
+  "utterances": [
+    "what is the ground clearance",
+    "ground clearance"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

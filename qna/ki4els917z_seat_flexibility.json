@@ -1,0 +1,16 @@
+{
+  "id": "ki4els917z_seat_flexibility",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "seat flexibility"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

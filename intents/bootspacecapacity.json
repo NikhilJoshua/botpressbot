@@ -1,0 +1,14 @@
+{
+  "name": "bootspaceCapacity",
+  "utterances": [
+    "bootspace capacity?",
+    "what is the bootspace capacity?",
+    "what is the boot space?",
+    "bootspace? ",
+    "boot space"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

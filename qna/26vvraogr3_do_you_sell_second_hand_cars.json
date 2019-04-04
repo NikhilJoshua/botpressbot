@@ -1,0 +1,18 @@
+{
+  "id": "26vvraogr3_do_you_sell_second_hand_cars",
+  "data": {
+    "answers": [
+      "no"
+    ],
+    "questions": [
+      "do you sell second hand cars",
+      "are second hand cars available",
+      "do you sell secondhand cars"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

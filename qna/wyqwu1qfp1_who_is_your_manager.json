@@ -1,0 +1,17 @@
+{
+  "id": "wyqwu1qfp1_who_is_your_manager",
+  "data": {
+    "answers": [
+      "Our manager is Nikhil Joshua"
+    ],
+    "questions": [
+      "who is your manager",
+      "manager?"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

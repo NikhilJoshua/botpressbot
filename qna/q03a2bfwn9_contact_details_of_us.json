@@ -1,0 +1,17 @@
+{
+  "id": "q03a2bfwn9_contact_details_of_us",
+  "data": {
+    "answers": [
+      "Our Manager Nikhil Joshua: 9515876500"
+    ],
+    "questions": [
+      "contact details of your manager",
+      "what are the contact details?"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

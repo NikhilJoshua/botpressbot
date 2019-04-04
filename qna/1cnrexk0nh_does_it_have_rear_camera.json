@@ -1,0 +1,17 @@
+{
+  "id": "1cnrexk0nh_does_it_have_rear_camera",
+  "data": {
+    "answers": [
+      "Yes"
+    ],
+    "questions": [
+      "does it have rear camera?",
+      "rear camera?"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

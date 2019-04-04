@@ -1,0 +1,16 @@
+{
+  "id": "yx0lcx66j5_do_this_car_contain_spare_wheel",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "do this car contain spare wheel"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

@@ -11,7 +11,7 @@ const reply = async () => {
 function formSentence(attr, name, value){
 	switch (attr){
 		case 'seats':
-			return value + " seats are available in " + name
+			return "Maximum of" + value + " seats are available in " + name
 			break
 		case 'gears':
 			return "There are " + value + " gears in " + name
@@ -51,26 +51,41 @@ function formSentence(attr, name, value){
 		case 'petrolPrice':
 			return "Petrol price for " + name +	 " is ₹" + value + " Lakhs"
 			break
+		case 'centralLock':
+			return value === 1 ? "Yes, central lock is available." : "No, central lock is not available"
+			break
+		case 'airbags':
+			var n = value.split('/')
+			if (value === "no" )
+				return "No, airbags are provided"
+			else
+				return n[1] !== undefined ? "Front and side airbags are provided" : "Only front is available"
+			break
+		case 'tankCapacity':
+			return name + " has maximum of " + value + " Litres of fuel tank capacity"
+			break
+		case 'insurancePeriod':
+			return "Please contact our manager for more information."
+			break
 		case 'none':
 			return "Sorry the information you provided is inappropriate"
 			break
-
 		default:
 			if(value !== undefined)
-				return attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + name + " is " + value
+				return attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + name + " is " + value + (attr === "bootspaceCapacity" ? " Litres" : "")
 			else
-				return "I didn't understand that, please be more specific."
+			return "I didn't understand that, please be more specific."
 			break
 	}
 }
 
 var attr = event.nlu.intent.name
 var flag = false
+var ocar = false
 
 	await event.nlu.entities.forEach(async function(x){
 		if(x.name === "Cars"){
 			flag = true
-			//user['car'] = (user['car'] === undefined) ? x.data.value : user['car']
 			user['car'] = x.data.value
 			await knex('cars').where({Name: x.data.value}).then(async function(r){
 				const payloads = await bp.cms.renderElement('builtin_text', {text: formSentence(attr, x.data.value,r[0][attr])/*attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + x.data.value + " is " + r[0][attr]*/, typing: false}, eventDestination)
@@ -79,13 +94,14 @@ var flag = false
 	}
 	else if(x.name === "oCars"){
 		flag = true
+		ocar = true
 		const payloads = await bp.cms.renderElement('builtin_text', {text: "Sorry we only sell Hyundai cars. Please enquire about Hyundai cars only.", typing: true}, eventDestination)
 		await bp.events.replyToEvent(event, payloads)
 	}
 
 	})
 
-	if(!flag && user.car !== undefined){
+	if(!flag && user.car !== undefined && !ocar){
 		await knex('cars').where({Name: user.car }).then(async function(r){
 				const payloads = await bp.cms.renderElement('builtin_text', {text: formSentence(attr, user.car, r[0][attr])/*attr.replace(/([A-Z])/g, " $1").toLowerCase() + " of " + user.car + " is " + r[0][attr]*/, typing: false}, eventDestination)
 				await bp.events.replyToEvent(event, payloads)

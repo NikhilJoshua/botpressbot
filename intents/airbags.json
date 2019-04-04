@@ -1,0 +1,17 @@
+{
+  "name": "airbags",
+  "utterances": [
+    " is this vehicle having air bags?",
+    "is this car contain airbags",
+    "air bags?",
+    "is this car having airbags ",
+    "airbags?",
+    "do it have airbags",
+    "how many airbags it has",
+    "what is the safety feature"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

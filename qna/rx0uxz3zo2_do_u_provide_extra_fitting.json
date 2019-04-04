@@ -1,0 +1,17 @@
+{
+  "id": "rx0uxz3zo2_do_u_provide_extra_fitting",
+  "data": {
+    "answers": [
+      "sorry we dont deal with extra fitting"
+    ],
+    "questions": [
+      "do u provide extra fitting",
+      "extra fitting"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

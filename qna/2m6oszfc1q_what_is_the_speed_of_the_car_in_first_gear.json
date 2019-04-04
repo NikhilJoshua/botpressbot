@@ -1,0 +1,21 @@
+{
+  "id": "2m6oszfc1q_what_is_the_speed_of_the_car_in_first_gear",
+  "data": {
+    "answers": [
+      "please take a test drive"
+    ],
+    "questions": [
+      "what is the speed of the car in first gear",
+      "what is the speed of the car in second gear",
+      "what is the speed of the car in third gear",
+      "what is the speed of the car in fourth gear",
+      "what is the speed of the car in fifth gear",
+      "what is the speed of the car in sixth gear"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

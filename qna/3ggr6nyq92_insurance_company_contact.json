@@ -1,0 +1,18 @@
+{
+  "id": "3ggr6nyq92_insurance_company_contact",
+  "data": {
+    "answers": [
+      "13241"
+    ],
+    "questions": [
+      "insurance company contact",
+      "insurance company contact number",
+      "insurance company number"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

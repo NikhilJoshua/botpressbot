@@ -60,7 +60,9 @@
         "Tata Tiago",
         "Tata Hexa",
         "Tata Tigor",
-        "\nTata Safari Storme"
+        "\nTata Safari Storme",
+        "Nano",
+        "tata nano"
       ]
     },
     {
@@ -96,6 +98,107 @@
     {
       "name": "Bentley",
       "synonyms": []
+    },
+    {
+      "name": "BMW",
+      "synonyms": [
+        "BMW X1",
+        "BMW 3 Series GT",
+        "\n",
+        "BMW i8",
+        "BMW 7 Series",
+        "bmw"
+      ]
+    },
+    {
+      "name": "Skoda",
+      "synonyms": [
+        "Skoda Rapid",
+        "Skoda Octavia",
+        "Skoda Kodiaq",
+        "Skoda Superb"
+      ]
+    },
+    {
+      "name": "ford",
+      "synonyms": [
+        "Ford EcoSport",
+        "\n",
+        "Ford Endeavour",
+        "Ford Figo",
+        "Ford Mustang"
+      ]
+    },
+    {
+      "name": "Renault",
+      "synonyms": [
+        "Renault KWID",
+        "Renault Duster",
+        "Renault Captur",
+        "Renault Lodgy"
+      ]
+    },
+    {
+      "name": "Audi ",
+      "synonyms": [
+        "Audi R8",
+        "Audi A3",
+        "Audi A4",
+        "Audi Q3",
+        "Audi A6"
+      ]
+    },
+    {
+      "name": "Chevrolet",
+      "synonyms": [
+        "Chevrolet Beat",
+        "Chevrolet Cruze",
+        "Chevrolet Tavera"
+      ]
+    },
+    {
+      "name": "Datsun",
+      "synonyms": [
+        "Datsun GO Plus",
+        "Datsun GO",
+        "Datsun redi-GO"
+      ]
+    },
+    {
+      "name": "Volvo",
+      "synonyms": [
+        "Volvo XC90",
+        "Volvo S60 Cross Country",
+        "Volvo V40",
+        "Volvo V40 Cross Country"
+      ]
+    },
+    {
+      "name": "Nissan",
+      "synonyms": [
+        "Nissan Kicks",
+        "Nissan Terrano",
+        "Nissan Micra",
+        "Nissan GT-R",
+        "Nissan Micra Active"
+      ]
+    },
+    {
+      "name": "Jaguar ",
+      "synonyms": [
+        "Jaguar XF",
+        "Jaguar F-Pace",
+        "Jaguar XJ",
+        "Jaguar XE"
+      ]
+    },
+    {
+      "name": "rolls royce",
+      "synonyms": [
+        "Rolls Royce Phantom",
+        "Rolls Royce Dawn",
+        "Rolls Royce Cullinan"
+      ]
     }
   ],
   "pattern": ""

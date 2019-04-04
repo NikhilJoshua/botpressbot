@@ -1,0 +1,15 @@
+{
+  "name": "__qna__2m6oszfc1q_what_is_the_speed_of_the_car_in_first_gear",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "what is the speed of the car in first gear",
+    "what is the speed of the car in second gear",
+    "what is the speed of the car in third gear",
+    "what is the speed of the car in fourth gear",
+    "what is the speed of the car in fifth gear",
+    "what is the speed of the car in sixth gear"
+  ],
+  "slots": []
+}

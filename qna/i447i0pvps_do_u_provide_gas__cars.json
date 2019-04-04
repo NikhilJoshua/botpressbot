@@ -1,0 +1,17 @@
+{
+  "id": "i447i0pvps_do_u_provide_gas__cars",
+  "data": {
+    "answers": [
+      "sorry no this facility is not available"
+    ],
+    "questions": [
+      "do u provide gas  cars",
+      "do u provide electric  cars"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

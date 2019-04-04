@@ -1,0 +1,17 @@
+{
+  "id": "4dsxwvrura_do_this_car_contain_music_system",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "do this car contain music system",
+      "do this car contain radio system"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "__qna__8nqd2uxhhs_first_service",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "first service?",
+    "1st service?",
+    "when is the first service?"
+  ],
+  "slots": []
+}

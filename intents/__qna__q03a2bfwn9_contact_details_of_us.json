@@ -1,0 +1,11 @@
+{
+  "name": "__qna__q03a2bfwn9_contact_details_of_us",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "contact details of your manager",
+    "what are the contact details?"
+  ],
+  "slots": []
+}

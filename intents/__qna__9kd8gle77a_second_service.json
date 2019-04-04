@@ -1,0 +1,12 @@
+{
+  "name": "__qna__9kd8gle77a_second_service",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "second service?",
+    "1st service",
+    "when is the second service"
+  ],
+  "slots": []
+}

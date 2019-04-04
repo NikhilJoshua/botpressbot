@@ -1,0 +1,18 @@
+{
+  "id": "z8qszc3c13_third_service",
+  "data": {
+    "answers": [
+      "third service is after 10000km"
+    ],
+    "questions": [
+      "third service",
+      "3rd service",
+      "when is the third service"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

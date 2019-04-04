@@ -1,0 +1,11 @@
+{
+  "name": "__qna__8i78pgzdwc_available_show_rooms_near_by",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "available show rooms near by",
+    "what is the nearest show room to me"
+  ],
+  "slots": []
+}

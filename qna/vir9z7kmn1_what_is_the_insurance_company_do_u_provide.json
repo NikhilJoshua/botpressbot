@@ -1,0 +1,16 @@
+{
+  "id": "vir9z7kmn1_what_is_the_insurance_company_do_u_provide",
+  "data": {
+    "answers": [
+      "Bajaj Allianz"
+    ],
+    "questions": [
+      "what is the insurance company?"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

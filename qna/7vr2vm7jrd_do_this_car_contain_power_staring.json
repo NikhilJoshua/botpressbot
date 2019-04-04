@@ -1,0 +1,17 @@
+{
+  "id": "7vr2vm7jrd_do_this_car_contain_power_staring",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "do this car contain power staring",
+      "power staring"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

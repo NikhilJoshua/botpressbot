@@ -1,0 +1,12 @@
+{
+  "name": "centralLock",
+  "utterances": [
+    "does this have central lock",
+    "is central lock available",
+    "central lock?"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

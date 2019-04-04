@@ -1,0 +1,18 @@
+{
+  "id": "dwuwjwdmsu_does_this_car_have_accelerator",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "does it have accelerator?",
+      "does it have brake",
+      "does it have clutch"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

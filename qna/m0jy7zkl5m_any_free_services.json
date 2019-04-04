@@ -1,0 +1,18 @@
+{
+  "id": "m0jy7zkl5m_any_free_services",
+  "data": {
+    "answers": [
+      "there are 3 free services, 1st, 2nd and 3rd service."
+    ],
+    "questions": [
+      "any free services?",
+      "what are the free services",
+      "how many services are avialable"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

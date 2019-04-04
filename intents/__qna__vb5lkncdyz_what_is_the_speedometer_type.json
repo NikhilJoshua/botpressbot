@@ -1,0 +1,11 @@
+{
+  "name": "__qna__vb5lkncdyz_what_is_the_speedometer_type",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "what is the speedometer type",
+    "does it have speedometer"
+  ],
+  "slots": []
+}

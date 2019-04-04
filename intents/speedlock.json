@@ -1,0 +1,8 @@
+{
+  "name": "speedLock",
+  "utterances": [],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

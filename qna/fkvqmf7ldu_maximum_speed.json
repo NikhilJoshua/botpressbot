@@ -1,0 +1,16 @@
+{
+  "id": "fkvqmf7ldu_maximum_speed",
+  "data": {
+    "answers": [
+      "140"
+    ],
+    "questions": [
+      "maximum speed"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

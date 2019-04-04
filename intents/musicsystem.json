@@ -1,0 +1,8 @@
+{
+  "name": "musicSystem",
+  "utterances": [],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

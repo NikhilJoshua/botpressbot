@@ -1,0 +1,17 @@
+{
+  "id": "kr9lbi5u98_do_this_car_contain_usb_charger",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "do this car contain USB charger",
+      "charging option"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

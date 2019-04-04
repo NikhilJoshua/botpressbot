@@ -1,0 +1,16 @@
+{
+  "id": "79bfcd0163_what_is_the_difference_between_old_and_new_version",
+  "data": {
+    "answers": [
+      "for further details please contact us "
+    ],
+    "questions": [
+      "what is the difference between old and new version of cars"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

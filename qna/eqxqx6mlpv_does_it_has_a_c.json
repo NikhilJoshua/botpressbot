@@ -1,0 +1,17 @@
+{
+  "id": "eqxqx6mlpv_does_it_has_a_c",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "does it has A/C",
+      "do this car contain A/c"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

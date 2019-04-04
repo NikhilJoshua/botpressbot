@@ -1,0 +1,17 @@
+{
+  "id": "95hwcrowxi_do_this_car_has_head_lights",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "do this car has head lights",
+      "do this car  has fog lams"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

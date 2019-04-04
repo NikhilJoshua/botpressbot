@@ -13,7 +13,7 @@ const reply = async () => {
 await knex('cars').where({Name: user['car']}).select('name','price','Seats').then(async function(r){
 		for( x in r[0]){
 			console.log()
-			const payloads = await bp.cms.renderElement('builtin_text', {text:x+" : " + r[0][x] + (x === "price" ? " Lakhs" : ""), typing:false}, eventDestination)
+			const payloads = await bp.cms.renderElement('builtin_text', {text: (x === "price" ? "Petrol " : "") + x +" : " + r[0][x] + (x === "price" ? " Lakhs" : ""), typing:false}, eventDestination)
 			await bp.events.replyToEvent(event, payloads)
 		}
 		

@@ -1,0 +1,16 @@
+{
+  "id": "hladmz27u8_do_this_car_contain_car_mat",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "do this car contain car mat"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

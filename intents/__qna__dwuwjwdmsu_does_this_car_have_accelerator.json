@@ -1,0 +1,12 @@
+{
+  "name": "__qna__dwuwjwdmsu_does_this_car_have_accelerator",
+  "contexts": [
+    "global"
+  ],
+  "utterances": [
+    "does it have accelerator?",
+    "does it have brake",
+    "does it have clutch"
+  ],
+  "slots": []
+}

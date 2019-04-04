@@ -1,0 +1,18 @@
+{
+  "id": "8nqd2uxhhs_first_service",
+  "data": {
+    "answers": [
+      "first service is after 1000 Kilometers"
+    ],
+    "questions": [
+      "first service?",
+      "1st service?",
+      "when is the first service?"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

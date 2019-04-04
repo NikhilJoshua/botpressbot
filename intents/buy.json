@@ -1,6 +1,7 @@
 {
   "name": "buy",
   "utterances": [
+    "I want a",
     "Can I purchase [car](car)",
     "i want to buy",
     "i want"

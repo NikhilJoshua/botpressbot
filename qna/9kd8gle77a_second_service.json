@@ -1,0 +1,18 @@
+{
+  "id": "9kd8gle77a_second_service",
+  "data": {
+    "answers": [
+      "second service is after 5000km "
+    ],
+    "questions": [
+      "second service?",
+      "1st service",
+      "when is the second service"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

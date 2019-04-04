@@ -1,0 +1,16 @@
+{
+  "id": "ilcqo6zliq_insurance_calculation",
+  "data": {
+    "answers": [
+      "please contact insurance company"
+    ],
+    "questions": [
+      "insurance calculation"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

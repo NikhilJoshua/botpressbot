@@ -1,0 +1,11 @@
+{
+  "name": "tankCapacity",
+  "utterances": [
+    "what is the tank capacity?",
+    "tank capacity?"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

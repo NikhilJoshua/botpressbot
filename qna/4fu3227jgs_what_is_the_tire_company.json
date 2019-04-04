@@ -1,0 +1,20 @@
+{
+  "id": "4fu3227jgs_what_is_the_tire_company",
+  "data": {
+    "answers": [
+      "we provide MRF tires"
+    ],
+    "questions": [
+      "what is the tire company",
+      "what is the tires you provide",
+      "tires you provide",
+      "tyres you provide",
+      "tyres you provide for"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

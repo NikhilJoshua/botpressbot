@@ -1,0 +1,17 @@
+{
+  "id": "vb5lkncdyz_what_is_the_speedometer_type",
+  "data": {
+    "answers": [
+      "yes"
+    ],
+    "questions": [
+      "what is the speedometer type",
+      "does it have  speedometer"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

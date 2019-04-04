@@ -1,0 +1,17 @@
+{
+  "id": "9jdgmh19f0_what_is_the_off_show_room_price_of_the_car",
+  "data": {
+    "answers": [
+      "sorry, we deal with only onroad prices"
+    ],
+    "questions": [
+      "what is the off show room price of the car",
+      "off show room price"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

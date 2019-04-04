@@ -133,7 +133,7 @@
         },
         {
           "condition": "event.nlu.intent.name === 'buy'",
-          "node": "ShowDetails"
+          "node": "buy"
         },
         {
           "condition": "true",
@@ -154,6 +154,15 @@
       ],
       "onEnter": [
         "getDetails {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f1f4e3438f",
+      "name": "buy",
+      "next": [],
+      "onEnter": [
+        "buy {}"
       ],
       "onReceive": null
     }

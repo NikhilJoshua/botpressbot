@@ -1,0 +1,17 @@
+{
+  "id": "8i78pgzdwc_available_show_rooms_near_by",
+  "data": {
+    "answers": [
+      "search on google"
+    ],
+    "questions": [
+      "available show rooms near by",
+      "what is the nearest show room to me"
+    ],
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

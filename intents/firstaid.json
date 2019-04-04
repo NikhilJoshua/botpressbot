@@ -1,0 +1,8 @@
+{
+  "name": "firstAid",
+  "utterances": [],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
